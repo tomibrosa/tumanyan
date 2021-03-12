@@ -1,3 +1,106 @@
+/* OTHER TABS */
+
+#gralnav {
+    background-color:rgb(19, 15, 65);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 40px; 
+    font-weight: bold;
+    padding: 20px 0 40px 50px; 
+    margin-bottom: 80px;
+    position: relative;
+}
+
+#gralnav2 /* solo para algunas tab */{
+    background-color:rgb(19, 15, 65);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 40px; 
+    font-weight: bold;
+    padding: 20px 0 40px 50px; 
+    margin-bottom: 80px;
+    position: relative;
+}
+
+#boo {
+    background-color: rgba(240, 192, 59, 0.959);
+    color: rgba(92, 8, 8, 0.925);
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top:79%;
+    left: 18%;
+    width: 81%;
+    padding: 8px 0 8px 40px;
+}
+
+#boo2 /* solo para algunas tab */ {
+    background-color: rgba(240, 192, 59, 0.959);
+    color: rgba(92, 8, 8, 0.925);
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top:79%;
+    left: 18%;
+    width: 81%;
+    padding: 8px 0 8px 40px;
+} 
+
+#mm {
+    margin-bottom: 40px;
+}
+
+#back:hover {
+    color: rgba(240, 192, 59, 0.959) !important;
+    background-color: rgba(255, 255, 255, 0.027);
+}
+
+/* MEDIAQ OTHER TABS */
+@media screen and (max-width:500px) {
+    #gralnav {
+        text-align: center;
+        padding: 10px 0 20px 0;
+    }
+    
+    #boo {
+        top: 88%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #mm {
+        padding: 0 40px 40px 40px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #boo2 {
+        font-size: 20px;
+        top: 90%;
+        padding: 8px;
+    }
+
+    #boo {
+        font-size: 24px;
+    }
+
+    #gralnav2 {
+        margin-bottom: 110px;
+        text-align: center;
+        padding: 8px 8px 20px 8px;
+        margin-bottom: 73px;
+    }
+
+    #gralnav {
+        text-align: center;
+        padding: 8px 8px 20px 8px;
+        margin-bottom: 63px;
+    }
+
+}
+
+
+/* ------------------------------------------------------------------- */
 body {
     background-color: rgba(255, 255, 255, 0.747)!important;
     font-family:'Kodchasan', sans-serif!important;
