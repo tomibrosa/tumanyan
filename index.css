@@ -126,6 +126,27 @@ body {
     font-family:'Kodchasan', sans-serif!important;
 }
 
+/* social media */
+#sm1 {
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    right: 190px;
+    top: 4px;
+}
+
+#sm2 {
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    right: 140px;
+    top: 4px;
+}
+
+#sm1:hover, #sm2:hover {
+    color: rgb(248, 233, 20);
+    opacity: 1;
+}
 
 /* WHATSAPP */
 .appwhatsapp {
@@ -372,22 +393,12 @@ body {
     margin-top: 40px;
 }
 
-#foot li a {
-    color: rgba(255, 255, 255, 0.856);
+#linkf {
     text-decoration: none;
 }
 
-#foot li {
-    list-style: none;
-}
-
-#foot h6 {
-    color: rgba(255, 255, 255, 0.829);
-    font-weight: bold;
-}
-
-#linf:hover {
-    color: rgb(226, 178, 47);
+#linkf:hover {
+    color: rgb(207, 177, 40) !important;
 }
 
 #foot h3 {
@@ -402,10 +413,6 @@ body {
     background-color: rgb(226, 186, 56);
     padding: 8px;
     border-radius: 100px;
-}
-
-#foot li {
-    margin-bottom: 4px;
 }
 
 .footer {
@@ -436,7 +443,7 @@ body {
         font-size: 20px!important;
     }
     }
-
+/* 
     #hr2 {
     width: 80%;
     border-color: rgba(255, 255, 255, 0.219);
@@ -445,7 +452,7 @@ body {
 #hr1 {
     width: 80%;
     border-color: rgba(255, 255, 255, 0.274);
-    }
+    } */
 
 @media screen and (max-width:992px) {
     #tuma {
@@ -489,6 +496,20 @@ body {
     #arrive {
         padding: 10px;
     }
+    #sm1{
+        top: 4px;
+        left: 9px;
+        height: 7px;
+        width: 7px;
+    }
+    #sm2 {
+        top: 4px;
+        left: 49px;
+        height: 70px;
+        width: 7px;
+    }
+
+
 }
 
 @media screen and (max-width:576px) {
