@@ -1,4 +1,24 @@
-/* OTHER TABS */
+/* TUMANYAN NAV */
+#navtab {
+    font-weight: bold;
+}
+
+#tumanparragraphpic2 {
+    display: none;
+}
+
+
+/* MEDIAQ OTHER TABS */
+@media screen and (max-width:576px) {
+    #tumanparragraphpic1 {display: none;
+    }
+    #tumanparragraphpic2 {
+        display: block;
+    }
+}
+
+
+/* OTHER TABS------------------------------------------------------------------------------ */
 
 #gralnav {
     background-color:rgb(19, 15, 65);
@@ -18,7 +38,7 @@
     font-size: 40px; 
     font-weight: bold;
     padding: 20px 0 40px 50px; 
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     position: relative;
 }
 
