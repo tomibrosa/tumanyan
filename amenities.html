@@ -23,7 +23,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
 
 <!-- Whatsapp -->
 <a href="https://api.whatsapp.com/send?phone=" target="blank" class="appwhatsapp">  <!-- Add phone number-->
@@ -52,31 +52,72 @@
           <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
         </svg> &nbsp; TUMANYAN HOSTEL</a>
       
-    <div id="boo">
+    <div id="boo" class="container">
+      <div class="row">
       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694L1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
         <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
       </svg>&nbsp; AMENITIES  
     </div>
+  </div>
   </nav>
   </div>
 </div>
 
 
 <!-- MAINCONTENT -->
-<div id="mm" class="container">
+
+<div class="container">
   <div class="row">
-<p>Book now and Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni iste impedit maxime tenetur magnam unde nostrum provident quia, iure natus:</p>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquid nam quaerat officia, odit excepturi a mollitia voluptatum tempore vero accusantium commodi ut exercitationem culpa laborum id nemo! Cupiditate, accusamus!</p>
-
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias totam repellendus eos officia esse harum illo fugit delectus impedit necessitatibus. Sequi nisi ipsa a nihil minus ab dolore sit vero.</p>
-
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat id quae, ab facilis, harum ipsum molestiae alias voluptas quod veritatis cumque, odit debitis voluptatem nihil non reprehenderit praesentium? Nesciunt, vero?</p>
+    <nav class="col-sm-3 col-4" id="myScrollspy">
+      <ul id="np" class="nav nav-pills flex-column" style="position: sticky;top: 0;">
+        <li class="nav-item dropdown">
+          <a id="mdrpr" class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#">Rooms</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#mdr" id="drm">Mixed dorm rooms</a>
+            <a class="dropdown-item" href="#pr" id="drm">Private rooms</a>
+          </div>  
+        </li>
+        <li class="nav-item">
+          <a id="kt" class="nav-link" href="#kt1">Kitchen</a>
+        </li>
+        <li class="nav-item">
+          <a id="br" class="nav-link" href="#br1">Bathrooms</a>
+        </li>
+        <li class="nav-item">
+          <a id="sr" class="nav-link" href="#sr1">Sitting room</a>
+        </li>
+        
+      </ul>
+    </nav>
+    <div class="col-sm-9 col-8">
+      <div id="mdr">    
+        <h1 style="background-color: gray;color: white;border-radius: 5px;box-shadow: rgba(0, 0, 0, 0.712) 1px 1px 1px 1px;margin-bottom: 20px;">Mixed dorm rooms</h1>
+        <p>Try to scroll this section and look at the navigation list while Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quas nostrum ea, dolorum distinctio exercitationem? Culpa, repellat? Laboriosam debitis doloremque dicta fugiat error, nisi nam, cupiditate fuga ipsum totam assumenda? lore scrolling!</p>
+      </div>
+      <div id="pr"> 
+        <h1 style="background-color: gray;color: white;border-radius: 5px;box-shadow: rgba(0, 0, 0, 0.712) 1px 1px 1px 1px;margin-bottom: 20px;">Private rooms</h1>
+        <p>Try to scroll this section and look at the navigation list Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum in iste molestias, voluptatem similique quidem assumenda facere nemo. In at vitae asperiores fugiat amet voluptatem accusantium, a repudiandae maxime deserunt.lore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam veniam aperiam nisi ratione! Saepe ut illum, reiciendis sit doloremque soluta esse debitis ad vel ipsum illo perspiciatis neque rem hic? while scrolling!</p>
+      </div>        
+      <div id="kt1">         
+        <h1 style="background-color: rgb(119, 28, 28);color: white;border-radius: 5px;box-shadow: rgba(0, 0, 0, 0.712) 1px 1px 1px 1px;margin-bottom: 20px;">Kitchen</h1>
+        <p>Try to scroll this secti Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum natus vel minima blanditiis earum repellat suscipit consectetur. Laboriosam fugiat praesentium, deserunt similique esse repudiandae commodi rerum, recusandae explicabo neque quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deleniti asperiores laboriosam in cupiditate ratione sint corrupti consequatur officia! Et cum qui repellat recusandae alias soluta beatae fuga mollitia atque? on and look at the navigation list while scrolling!</p>
+      </div>
+      <div id="br1">         
+        <h1 style="background-color: rgb(26, 40, 121);color: rgb(255, 255, 255);border-radius: 5px;box-shadow: rgba(0, 0, 0, 0.712) 1px 1px 1px 1px;margin-bottom: 20px;">Bathrooms</h1>
+        <p>Try to scroll this Lorem ipsum, dolor sit amet consecteturlore lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, tempore sequi? Tempore beatae dignissimos, provident accusantium id ad voluptatibus exercitationem dolor, voluptas cumque velit et incidunt illo repellat, error molestiae. adipisicing elit. Deleniti consequuntur modi, impedit nisi amet aperiam? Aperiam, eos eaque placeat esse, iure repellendus vero, aliquam id in dicta ducimus dignissimos rerum. section and look at the navigation list while scrolling!</p>
+      </div>
+      <div id="sr1">         
+        <h1 style="background-color: rgb(204, 186, 25);color: white;border-radius: 5px;box-shadow: rgba(0, 0, 0, 0.712) 1px 1px 1px 1px;margin-bottom: 20px;">Sitting room</h1>
+        <p>Try to scroll this t consecteturlore lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, tempore sequi? Tempore beatae dignissimos, provident accusantium id ad voluptatibus exercitationem dolor, voluptas cumque velit et incidunt illo repellat, error molestiae. adipisicing elit. Deleniti consequuntur modi, impedit nisi amet aperiam? Aperiam, eos eaque placeat esse, iure repellendus vero, aliquam id in dicta ducimus dignissimos rerum. section and look at the navigation list while scLorem ipsum, dolor sit amet consecteturlore lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, tempore sequi? Tempore beatae dignissimos, provident accusantium id ad voluptatibus exercitationem dolor, voluptas cumque velit et incidunt illo repellat, error molestiae. adipisicing elit. Deleniti consequuntur modi, impedit nisi amet aperiam? Aperiam, eos eaque placeat esse, iure repellendus vero, aliquam id in dicta ducimus dignissimos rerum. section and look at the navigation list while scrolling!</p>
+      </div>      
+      </div>
+    </div>
+  </div>
 </div>
-</div>
 
-    <!-- FOOTER --> 
+
+<!-- FOOTER --> 
     <div class="footer">
       <div class="container">
        <div class="row">
@@ -100,7 +141,5 @@
      </div>
      </div>
    
-
-
 </body>
 </html>
