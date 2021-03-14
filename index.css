@@ -70,6 +70,9 @@
     text-align: justify;
 }
 
+#amam {
+    padding-left: 30px;
+}
 
 /* MEDIAQ OTHER TABS */
 @media screen and (max-width:576px) {
@@ -77,6 +80,10 @@
     }
     #tumanparragraphpic2 {
         display: block;
+    }
+
+    #amam h1 {
+        font-size: 25px;
     }
 }
 
