@@ -56,7 +56,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
         <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
         <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-      </svg>&nbsp; HOW TO ARRIVE FROM YEREVAN?  
+      </svg>&nbsp; HOW TO ARRIVE FROM YEREVAN?  &nbsp; <img src="img/flags/arm.png" height="31px" alt="">
     </div>
   </nav>
   </div>
@@ -64,16 +64,46 @@
 
 
 <!-- MAINCONTENT -->
-<div id="mm" class="container">
-  <div class="row">
-<p>Book now and Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni iste impedit maxime tenetur magnam unde nostrum provident quia, iure natus:</p>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquid nam quaerat officia, odit excepturi a mollitia voluptatum tempore vero accusantium commodi ut exercitationem culpa laborum id nemo! Cupiditate, accusamus!</p>
-
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias totam repellendus eos officia esse harum illo fugit delectus impedit necessitatibus. Sequi nisi ipsa a nihil minus ab dolore sit vero.</p>
-
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat id quae, ab facilis, harum ipsum molestiae alias voluptas quod veritatis cumque, odit debitis voluptatem nihil non reprehenderit praesentium? Nesciunt, vero?</p>
-</div>
+<div style="margin-bottom: 60px;" class="container">
+  <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          <strong style="color: rgb(211, 186, 45);" > Bus</strong>
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        <strong style="color: rgb(26, 26, 160);" > Taxi </strong>
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          <strong style="color: rgb(156, 35, 35);" >  Other </strong>
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
     <!-- FOOTER --> 
