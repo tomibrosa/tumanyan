@@ -1,3 +1,9 @@
+/* tabs */
+#gralnav, #gralnav2 {
+    background-image: linear-gradient(to right,rgb(20, 18, 100),rgb(0, 0, 0));
+}
+
+
 /* TUMANYAN NAV */
 #navtab {
     font-weight: bold;
@@ -74,6 +80,11 @@
     padding-left: 30px;
 }
 
+#sc {
+    border-radius: 5px;
+    box-shadow:1px 1px 1px 1px #3f0c0c;
+}
+
 /* MEDIAQ OTHER TABS */
 @media screen and (max-width:576px) {
     #tumanparragraphpic1 {display: none;
@@ -84,6 +95,9 @@
 
     #amam h1 {
         font-size: 25px;
+    }
+    #sc {
+        height: 150px;
     }
 }
 
@@ -113,20 +127,20 @@
 }
 
 #boo {
-    background-color: rgba(240, 192, 59, 0.959);
+    background-image: linear-gradient(to right,rgb(255, 217, 0),rgb(139, 116, 12));
     color: rgba(92, 8, 8, 0.925);
     font-size: 30px;
     font-weight: bold;
     position: absolute;
-    top:79%;
+    top:89%;
     left: 18%;
     width: 81%;
     padding: 8px 0 8px 40px;
 }
 
 #boo2 /* solo para algunas tab */ {
-    background-color: rgba(240, 192, 59, 0.959);
-    color: rgba(92, 8, 8, 0.925);
+    background-image: linear-gradient(to right,rgb(255, 217, 0),rgb(139, 116, 12));
+        color: rgba(92, 8, 8, 0.925);
     font-size: 30px;
     font-weight: bold;
     position: absolute;
@@ -143,7 +157,6 @@
 
 #back:hover {
     color: rgba(240, 192, 59, 0.959) !important;
-    background-color: rgba(255, 255, 255, 0.027);
 }
 
 /* MEDIAQ OTHER TABS */
@@ -197,8 +210,14 @@
 
 /* ------------------------------------------------------------------- */
 body {
-    background-color: rgba(255, 255, 255, 0.747)!important;
+    background-color: rgb(216, 216, 216)!important;
     font-family:'Kodchasan', sans-serif!important;
+}
+
+@media screen and (max-width:500px) {
+    body p {
+        font-size: 13px;
+    }
 }
 
 /* social media */
@@ -320,13 +339,13 @@ body {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.89);
+    background-image:linear-gradient(to bottom,black,rgb(61, 60, 60));
     border-radius: 5px;
 }
 
 #booknow:hover {
-    background-color: rgb(207, 177, 40);
-    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top,rgb(184, 184, 184),black);
+    color: rgb(255, 255, 255);
 }
 
 /* TILES */
@@ -450,17 +469,17 @@ body {
     text-decoration: none;
     color: white;
     padding: 8px;
-    background-color: rgba(31, 28, 112, 0.925);
+    background-image: linear-gradient(to bottom right, rgb(17, 17, 100), rgb(41, 41, 168));
     border-radius: 53px;
 }
 
 #from:hover {
-    background-color: rgb(218, 190, 37);
+    background-image:linear-gradient(to bottom right, rgb(71, 61, 28), rgb(240, 204, 87));
 }
 
 /* FOOTER */
 .footer {
-    background-color: rgba(15, 14, 49, 0.973);
+    background-image: linear-gradient(to left,rgb(20, 18, 100),rgb(0, 0, 0));
     height: auto;
 }
 
